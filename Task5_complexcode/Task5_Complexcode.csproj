@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Static.cs" />
     <Compile Include="Expectional.cs" />
     <Compile Include="Constructor.cs" />
     <Compile Include="Loops.cs" />
