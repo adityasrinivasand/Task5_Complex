@@ -4,27 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task5_complexcode
+namespace Task5_Complexcode
 {
     class Shape
     {
-        public virtual void Draw(int a)
+        public virtual void Draw(float a)
         {
             Console.WriteLine($" Draw Function has been invoked with a parametric length: {a} ");
         }
     }
     class Square : Shape
     {
-        public override void Draw(int a)
+        public override void Draw(float a)                                                         //Overriding and overloading
         {
-            Console.WriteLine($"Square Drawn with a length: {a} ");
-            Console.WriteLine($"Area of Square Drawn with a length: {a} is {a*a} ");
+            int i = (int)a;                                                                     //type conversion 
+            Console.WriteLine($"The decimal is converted from {a} to {i}");
+            Console.WriteLine($"Square Drawn with a length: {i} ");
+            Console.WriteLine($"Area of Square Drawn with a length: {i} is {i*i} ");
         }
 
     }
     class Circle : Shape
     {
-        public override void Draw(int a)
+        public override void Draw(float a)
         {
             Console.WriteLine($"Circle Drawn with a Radius: {a} ");
             Console.WriteLine($"Area of Circle Drawn with a radius: {a} is {3.14 * a * a} ");
