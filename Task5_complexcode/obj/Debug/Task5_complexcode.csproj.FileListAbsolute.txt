@@ -1,0 +1,7 @@
+C:\Users\aditya.srinivasan\source\repos\Task5_complexcode\Task5_complexcode\bin\Debug\Task5_complexcode.exe.config
+C:\Users\aditya.srinivasan\source\repos\Task5_complexcode\Task5_complexcode\bin\Debug\Task5_complexcode.exe
+C:\Users\aditya.srinivasan\source\repos\Task5_complexcode\Task5_complexcode\bin\Debug\Task5_complexcode.pdb
+C:\Users\aditya.srinivasan\source\repos\Task5_complexcode\Task5_complexcode\obj\Debug\Task5_complexcode.csprojAssemblyReference.cache
+C:\Users\aditya.srinivasan\source\repos\Task5_complexcode\Task5_complexcode\obj\Debug\Task5_complexcode.csproj.CoreCompileInputs.cache
+C:\Users\aditya.srinivasan\source\repos\Task5_complexcode\Task5_complexcode\obj\Debug\Task5_complexcode.exe
+C:\Users\aditya.srinivasan\source\repos\Task5_complexcode\Task5_complexcode\obj\Debug\Task5_complexcode.pdb
