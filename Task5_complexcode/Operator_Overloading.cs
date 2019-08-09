@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task5_complexcode
+namespace Task5_Complexcode
 {
     public class ComplexNum
     { 
@@ -15,9 +15,13 @@ namespace Task5_complexcode
             this.real = real;
             this.imaginary = imaginary;
         }
-        public static ComplexNum operator + (ComplexNum n1, ComplexNum n2)
+        public static ComplexNum operator + (ComplexNum n1, ComplexNum n2)                      //Operator Adding
         {
             return new ComplexNum(n1.real + n2.real, n1.imaginary + n2.imaginary);
+        }
+        public static ComplexNum operator - (ComplexNum n1, ComplexNum n2)                      //Operator Adding
+        {
+            return new ComplexNum(n1.real - n2.real, n1.imaginary - n2.imaginary);
         }
         public override string ToString()
         {
